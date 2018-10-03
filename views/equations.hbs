@@ -1,2 +1,9 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+<ol class="equation-list">
+    {{#each numbers}}
+    <li class="equation-list-item">
+        <span>{{this.first}}</span> + <span>{{this.second}}</span> = __
+    </li>
+    {{/each}}
+</ol>
