@@ -10,3 +10,13 @@ a {
 p {
   color: blue;
 }
+
+.equation-list-item {
+  font-size: 3em;
+  span {
+    color: blue;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+  }
+}
